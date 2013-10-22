@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -14,6 +14,7 @@ group :development, :test do
 	gem 'guard-spork', '1.5.0'
 	gem 'childprocess', '0.3.6'
 	gem 'railties'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 group :test do
@@ -54,7 +55,7 @@ end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
-gem 'bcrypt-ruby', '3.0.1'
+gem 'bcrypt-ruby', '~>3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
