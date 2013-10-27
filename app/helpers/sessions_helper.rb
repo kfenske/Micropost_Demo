@@ -1,6 +1,4 @@
 module SessionsHelper
-<<<<<<< HEAD
-=======
 
 	def sign_in(user)
 		remember_token = User.new_remember_token
@@ -26,5 +24,4 @@ module SessionsHelper
 		self.current_user = nil
 		cookies.delete(:remember_token)
 	end
->>>>>>> sign-in-out-again
 end
